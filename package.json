@@ -2,9 +2,16 @@
   "name": "mongoscraper",
   "version": "1.0.0",
   "description": "scrapes NYTimes and displays articles",
+<<<<<<< HEAD
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+>>>>>>> origin
   },
   "repository": {
     "type": "git",
@@ -17,11 +24,19 @@
   },
   "homepage": "https://github.com/willhoy61/mongoScraper#readme",
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "axios": "^0.17.1",
+>>>>>>> origin
     "body-parser": "^1.18.2",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "mongoose": "^4.13.9",
+<<<<<<< HEAD
+=======
+    "morgan": "^1.9.0",
+>>>>>>> origin
     "request": "^2.83.0"
   }
 }
